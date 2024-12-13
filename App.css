@@ -1,0 +1,118 @@
+.container {
+  text-align: center;
+  /*font-family: 'Arial, sans-serif';*/
+  margin: 40px auto;
+  overflow:auto;
+  max-width: 1300px;
+  max-height: 800px;
+  /*background-color: #f0eced;*/
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(10px); /* Blurs content behind */
+  -webkit-backdrop-filter: blur(05px); /* For Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border for outline */
+  padding:10px; /* Inner padding */
+  /*height: 200px; /* Height of the glass card */
+}
+
+.additional {
+  font-size: 1rem;
+  color: white;
+  text-shadow: -0.1px 0.1px 0 #000,
+                         0.1px 0.1px 0 #000,
+                         0.1px -0.1px 0 #000,
+                         -0.1px -0.1px 0 #000;
+}
+
+.info {
+  text-shadow: -0.1px 0.1px 0 #000,
+                         0.1px 0.1px 0 #000,
+                         0.1px -0.1px 0 #000,
+                         -0.1px -0.1px 0 #000;
+  font-size: 1.5rem;
+  font-family: monospace;
+  margin-top: 50px;
+  float:right;
+  padding-right: 580px;
+  color: rgb(250, 247, 247);
+  text-align: left;
+}
+
+.title {
+  font-size: 3rem;
+  /*text-shadow: -0.5px 0.5px 0 #000,
+                         0.5px 0.5px 0 #000,
+                         0.5px -0.5px 0 #000,
+                         -0.5px -0.5px 0 #000;*/
+  font-family: fantasy;
+  color: #f90606;
+  margin-top: 2px;
+}
+
+.message {
+  font-size: 1.5rem;
+  text-shadow: -0.1px 0.1px 0 #000,
+                         0.1px 0.1px 0 #000,
+                         0.1px -0.1px 0 #000,
+                         -0.1px -0.1px 0 #000;
+  font-family: monospace;
+  margin-top: -50px;
+  color: rgb(150, 214, 247);
+}
+
+.image {
+  width: 100%;
+  float: left;
+  border-color: black;
+  max-width: 300px;
+  border-radius: 03px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(180, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  margin-top: 480px;
+  
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button.yes {
+  font-family: Impact, Haettenschweiler,, sans-serif;
+  background-color: #4caf50;
+}
+
+.button.no {
+  font-family: Impact, Haettenschweiler,, sans-serif;
+  background-color: #f44336;
+}
+
+body {
+  background-image: url('/Users/mustakahamed/code/my-app/Screenshot 2024-12-06 at 19.49.30.png'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed;
+}
+
+
+
